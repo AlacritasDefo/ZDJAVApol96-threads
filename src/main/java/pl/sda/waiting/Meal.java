@@ -1,7 +1,6 @@
 package pl.sda.waiting;
 
 public class Meal {
-
     private boolean isReady = false;
 
     public synchronized void waitForMeal() throws InterruptedException {

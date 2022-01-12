@@ -11,5 +11,4 @@ public class WhileThread extends Thread{
         System.out.println(random.nextInt());
         x++;}
     }
-
 }

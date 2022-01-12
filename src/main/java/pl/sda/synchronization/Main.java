@@ -1,7 +1,6 @@
 package pl.sda.synchronization;
 
 public class Main {
-
     public static void main(String[] args) throws InterruptedException {
         final Counter counter = new Counter();
         Thread thread1 = new Thread(() -> {

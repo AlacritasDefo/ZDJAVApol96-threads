@@ -37,5 +37,4 @@ public class Main {
         t2.join();
         System.out.println("Exiting? No I will never reach this line of code because threads will NOT join");
     }
-
 }

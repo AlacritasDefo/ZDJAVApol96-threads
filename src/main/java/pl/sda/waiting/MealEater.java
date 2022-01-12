@@ -1,7 +1,6 @@
 package pl.sda.waiting;
 
 public class MealEater implements Runnable {
-
     private final Meal meal;
 
     public MealEater(Meal meal) {

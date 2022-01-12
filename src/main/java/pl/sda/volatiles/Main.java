@@ -3,7 +3,6 @@ package pl.sda.volatiles;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-
     private static volatile boolean stopRequested;
 
     public static void main(String[] args)

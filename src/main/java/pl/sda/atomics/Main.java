@@ -5,7 +5,6 @@ import pl.sda.synchronization.Counter;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
-
     public static void main(String[] args) throws InterruptedException {
         AtomicInteger counter = new AtomicInteger();
         Thread thread1 = new Thread(() -> {
